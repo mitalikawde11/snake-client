@@ -1,8 +1,9 @@
-//  CONSTANT_VALUES into a separate module.
+// CONSTANT_VALUES into a separate module.
 
-const IP = "localhost"; //"localhost";  // IP address (host)
+const IP = "localhost"; // IP address (host)
 const PORT = 50541 ; // PORT number
 
+// movement command object
 const moveCmd = {
   w: "Move: up",
   a: "Move: left",
@@ -10,6 +11,7 @@ const moveCmd = {
   d: "Move: right"
 };
 
+// message object
 const message = {
   x: "Say: go crazy",
   z: "Say: hungry snake"

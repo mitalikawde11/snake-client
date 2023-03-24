@@ -47,25 +47,3 @@ const handleUserInput = function (key) {
 module.exports = { setupInput };
 
 
-
-
-/*
-Before refactoring: 
-// if(key === 'w') {
-  //   connection.write("Move: up"); // sending movement command to the server
-  // }
-  // if(key === 'a') {
-  //   connection.write("Move: left");
-  // }
-  // if(key === 's') {
-  //   connection.write("Move: down");
-  // }
-  // if(key === 'd') {
-  //   connection.write("Move: right");
-  // }
-
-  // sending message
-  if(key === 'z') {
-    connection.write("Say: go crazy");
-  }
-*/
