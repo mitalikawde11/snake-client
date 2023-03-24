@@ -34,6 +34,12 @@ const handleUserInput = function (key) {
   if(key === 'd') {
     connection.write("Move: right");
   }
+
+  // sending message
+  if(key === 'z') {
+    connection.write("Say: go crazy");
+  }
+  
   
 };
 
