@@ -10,12 +10,16 @@ Before you can run this client, you will need to be running the server side whic
 ## Final Product
 
 Client terminal image: After running `node play.js` in the client terminal and when successfully connected to the server it prints a  message `"Successfully connected to game server"`. You can see a message sent to you from the server when it kicks out your snake for idling... `"you ded cuz you idled"`.
-!["screenshot description"](screenshots\client_terminal_screenshot.png)
+
+<img src="screenshots/client_terminal_screenshot.png" width="700" height="350">
+
 
 
 Server terminal image: After connected to the server user can see the snake appears on the terminal window with user's name(initials) next to the snake. Now you can press the movement commands<kbd>w</kbd> : `Move up`, <kbd>a</kbd> : `Move left`, <kbd>s</kbd> : `Move down`, <kbd>d</kbd> : `Move right`to move the snake. As it moves and eats food, it grows. You can send a messages using special keys <kbd>x</kbd>, <kbd>z</kbd>.
 Can be terminate game using <kbd> ctrl + c </kbd>
-!["screenshot description"](screenshots\terminal_screenshot.png)
+
+<img src="screenshots/terminal_screenshot.png" width="700" height="350">
+
 
 
 ## Getting Started
