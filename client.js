@@ -16,11 +16,17 @@ const connect = function () {
   // Print a message to the screen when the connection is successfully established
   conn.on("connect", () => {
     console.log("Successfully connected to game server");
-    
     // sending a name to the server upon connection
     conn.write("Name: MSK");
+
+    // move our snake up one block.
+    // conn.on("connect", () => {
+    //   conn.write("Move: up");
+    // });
+
   });
 
+  
   // interpret incoming data as text
   conn.setEncoding("utf8");
 
